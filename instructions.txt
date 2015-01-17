@@ -1,0 +1,16 @@
+1. mkdir ~/17
+2. cd ~/17
+3. git init
+{create text file}
+4. git status
+5. git add instructions.txt
+6. git status
+7. git commit -m "message"
+{create another text file}
+8. git add '*.txt'
+9. git commit -m 'Add all the files'
+10. git log
+{Create a repository on github if it doesn't already exist}
+11. git remote add origin https://github.com/danhaid/17.git
++++git pull origin master
+12. git push -u origin master
